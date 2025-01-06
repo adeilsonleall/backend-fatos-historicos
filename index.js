@@ -19,6 +19,8 @@ app.get('/', (req, res) => { // Cria uma rota com tratamento de requisições e 
     }
 })
 
-app.listen(8080, () =>{ // Inicia servidor Express e faz com que ele escute as conexões na porta 8080.
-    console.log('Servidor node iniciado');
-})
+// app.listen(8080, () =>{ // Inicia servidor Express e faz com que ele escute as conexões na porta 8080.
+//     console.log('Servidor node iniciado');
+// })
+
+export default app;
